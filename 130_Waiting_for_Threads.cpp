@@ -15,6 +15,7 @@ int main()
 
     while(!ready)
     {
+        cout << "Not ready" << endl;
         this_thread::sleep_for(chrono::milliseconds(100));
     }
 
